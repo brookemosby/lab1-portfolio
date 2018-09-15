@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="main.css">
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="#work" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WORK EXPERIENCE</a>
+    <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROJECTS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+  </div>
+</div>
+
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="linkedin.png" style="width:400px;height:300px;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="pinksweater.jpg" style="width:250px;height:300px;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="trees.jpg" style="width:250px;height:300px;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
+    <h2 class="w3-wide">Brooke Mosby</h2>
+    <p class="w3-justify">I am proficient in C++, Python, SQL, R, and skilled in object orientated programming. I am a meticulous problem solver, and enjoy finding meaning in large data sets. I am currently working for Apple as a Software Engineer, and graduated from Brigham Young with a Bachelors in Applied and Computational Mathemeatics</p>
+  </div>
+
+  <!-- Work Experience Section -->
+  <div class="w3-black" id="work">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">WORK EXPERIENCE</h2>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-first w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><img src="apple.png" alt="Apple" style="width:10%" class="w3-hover-opacity"> <b>Software Engineer at Apple</b></p>
+            <p class="w3-opacity">February 2019</p>
+          </div>
+        </div>
+        <div class="w3-first w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><img src="apple.png" alt="Apple" style="width:10%" class="w3-hover-opacity"> <b>Software Engineer Intern at Apple</b></p>
+            <p class="w3-opacity">May 2018 - August 2018</p>
+            <ul>
+              <li>Made a code generator to generate an object-oriented client library to make RESTful API calls in c++</li>
+              <li>Wrote Mustache templates to accept variables and modify generated code as necessary</li>
+              <li>Worked on a team to integrate API client library into multiple platforms</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="w3-first w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><img src="medic1.png" alt="Medic Life" style="width:10%" class="w3-hover-opacity"> <b>Data Engineer Intern at Medic Life</b></p>
+            <p class="w3-opacity">February 2017 - August 2017</p>
+            <ul>
+              <li>Wrote code in python to determine frequency, HNR, glottal pulses and gitter of a signal, with accuracy up to 99%</li>
+              <li>Worked on a team to create ASPEN, software able to potentially analyze any data set</li>
+              <li>Created a pypi package with 100% test coverage using travis and coveralls, description of package can be found <a href="https://brookemosby.github.io/Signal_Analysis">here</a> along with a link to code</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Projects Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="projects">
+    <h2 class="w3-wide">Projects</h2>
+            <ol>
+              <li><a href="https://brookemosby.github.io/Signal_Analysis">Signal Analysis</a></li>
+              <li><a href="https://github.com/brookemosby/titanic">Titanic Dataset Machine Learning Predictions</a></li>
+              <li><a href="https://github.com/brookemosby/Movies">Movies Dataset Predictions</a></li>
+            </ol>
+  </div>
+
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-phone" style="width:30px"></i> 678-799-5970<br><br>
+        <i class="fa fa-envelope" style="width:30px"> </i> brooke.mosby.byu@gmail.com<br><br>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <a href="https://www.facebook.com/bmosby1"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://instagram.com/brookemosby/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <a href="https://snapchat.com/add/bmosby70"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+  <a href="https://github.com/brookemosby"><i class="fa fa-github w3-hover-opacity"></i></a>
+  <a href="https://linkedin.com/in/brooke-mosby-00a57912a"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000);    
+}
+
+</script>
+
+</body>
+</html>
+
